@@ -27,4 +27,9 @@ public class CoinRotator : MonoBehaviour
         transform.Translate(verticalMovement * Time.deltaTime);*/
     }
 
+    public void AdjustSpeed(float newSpeed)
+    {
+        rotationSpeed = newSpeed;
+    }
+
 }
